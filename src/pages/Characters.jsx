@@ -4,7 +4,7 @@ import { Container, Grid , Stack, Pagination} from '@mui/material';
 
   
 
-function Characters({loading, error, charList, pages, setPages, countLikes, setCountLikes}) {
+function Characters({loading, error, charList, setPages, countLikes, setCountLikes}) {
 
   function onChangePage(pageNumber) {
     setPages(parseInt(pageNumber))
